@@ -1,0 +1,113 @@
+.img_box { width:100%;}
+.img_box li { float:left; overflow:hidden; margin:10px; height:200px; width:290px; border:1px solid red;}
+.img_box li img { height:200px; border-radius:5px;}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 600px;
+}
+
+#wrapper #header #header_left {
+    height: 110px;
+    float: left;
+    width: 288px;
+    padding-top: 20px;
+}
+
+#wrapper #header #header_right {
+    height: 110px;
+    float: right;
+    width: 440px;
+    padding-top: 20px;
+}
+
+#wrapper #content #contact_left {
+	width:550px;
+	float:left;
+	min-height:500px;
+}
+
+#wrapper #content #contact_right {
+	width:380px;
+	float:right;
+	min-height:500px;
+}
+
+.thetitle {
+  font-size:25px;	
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+#wrapper #header #header_right ul {
+    list-style-type: none;
+}
+
+#wrapper #header #header_right ul li {
+    float: left;
+    width: 110px;
+}
+
+#wrapper #header #header_right a {
+    font-size: 20px;
+    color: #BBBBBB;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    height: 79px;
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#wrapper #header #header_right a:hover {
+    color: #33FF00;
+}
+
+#wrapper #header #header_right #itemhome {
+    background-image: url("../images/menu_icon1.gif");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#wrapper #header #header_right #itemhome:hover {
+    background-image: url("../images/menu_icon1_active.gif");
+}
+
+#wrapper #header #header_right #itemnews {
+    background-image: url("../images/menu_icon2.gif");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#wrapper #header #header_right #itemnews:hover {
+    background-image: url("../images/menu_icon2_active.gif");
+}
+
+#wrapper #header #header_right #itemgallery {
+    background-image: url("../images/menu_icon3.gif");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#wrapper #header #header_right #itemgallery:hover {
+    background-image: url("../images/menu_icon3_active.gif");
+}
+
+
+#wrapper #header #header_right #itemcontact {
+    background-image: url("../images/menu_icon4.gif");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#wrapper #header #header_right #itemcontact:hover {
+    background-image: url("../images/menu_icon4_active.gif");
+}
